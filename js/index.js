@@ -30,6 +30,7 @@ parisTimeElement.innerHTML = parisTime.format(
 }, 1000);
 
 function updateCity(e){
+    
     let cityTimeZone = e.target.value;
     if(cityTimeZone === "current"){
         cityTimeZone= moment.tz.guess();
@@ -45,10 +46,9 @@ function updateCity(e){
         </div>
         <div class="time">${cityTime.format("HH:mm:ss")}<small>${cityTime.format("A")}</small></div>
       </div>
-      <a class="goBack" href="/">✨Back to all cities✨</a>
+      <a class="goBack" href="/">✨Back to home✨</a>
     `
 }
-
 let citiesSelectElement = document.querySelector("#city");
 
 citiesSelectElement.addEventListener("change", updateCity);
