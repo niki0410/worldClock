@@ -31,6 +31,9 @@ parisTimeElement.innerHTML = parisTime.format(
 
 function updateCity(e){
     let cityTimeZone = e.target.value;
+    if(cityTimeZone === "current"){
+        cityTimeZone= moment.tz.guess();
+    }
     let cityName = cityTimeZone.replace("_", " ").split("/")[1];
     let cityTime = moment().tz(cityTimeZone)
     let citiesElement = document.querySelector("#cities")
