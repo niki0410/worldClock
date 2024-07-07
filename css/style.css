@@ -1,9 +1,13 @@
    body{
-    background-color: #f9f7fe;
+    background: radial-gradient(circle at 5.3% 17.2%, rgb(255, 208, 253) 0%, rgb(255, 237, 216) 90%);
    }
    h1{
         text-align: center;
         font-family: "Comfortaa", sans-serif;
+        background-image: radial-gradient(circle at 10% 20%, rgb(178, 178, 212) 0%, rgb(253, 222, 249) 79.5%);
+        color: transparent;
+        -webkit-background-clip: text;
+        font-weight: 800;
     }
     .container{
         max-width:600px;
@@ -27,7 +31,7 @@
         border-radius: 5px;
         text-decoration: none;
         color:#000;
-        background-color: #ffe9fb;
+        background:radial-gradient(circle at 5.3% 17.2%, rgb(255, 208, 253) 0%, rgb(255, 237, 216) 90%);
         font-family: "Raleway", sans-serif;
         font-size: 14px;
     }
@@ -56,6 +60,14 @@
         border-radius: 6px;
         font-family: "Comfortaa", sans-serif;
         font-size: 18px;
+        background: linear-gradient(109.6deg, rgb(255, 221, 225) 11.2%, rgb(255, 255, 255) 92.2%);
+        border: 2px solid #C6BDDE;
+    }
+    select:active{
+        border: 2px solid #C6BDDE;
+    }
+    select:focus-visible{
+        outline:none
     }
     option{
         font-size: 16px;
