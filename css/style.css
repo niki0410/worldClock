@@ -1,7 +1,70 @@
-h1{
-    text-align: center;
-}
-footer{
-    text-align: center;
+   body{
+    background-color: #f9f7fe;
+   }
+   h1{
+        text-align: center;
+        font-family: "Comfortaa", sans-serif;
+    }
+    .container{
+        max-width:600px;
+        margin:60px auto;
+        background-color: #fff;
+        padding:30px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+    }
+    .time{
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+    }
+    .small{
+        font-size: 16px;
+        vertical-align: middle;
+    }
+    h2{
+        margin:0 0 5px;
+        font-size: 28px;
+    }
+    .date{
+        opacity: 0.7;
+    }
+    .city{
+        font-family: "Raleway", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        margin:10px 0;
+        border-bottom: 1px dashed rgba(0,0,0,0.2);
+        padding:30px 0;
+    }
+    .city:last-child{
+        border:none;
+    }
+    select{
+        display: block;
+        width:100%;
+        padding:10px;
+        border-radius: 6px;
+        font-family: "Comfortaa", sans-serif;
+        font-size: 18px;
+    }
+    option{
+        font-size: 16px;
+        font-family: "Raleway", sans-serif;
 
-}
+
+    }
+    footer{
+        text-align: center;
+        font-family: "Comfortaa", sans-serif;
+        font-size: 16px;
+        color: rgba(110, 19, 146, 0.5);
+    }
+    .name{
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+    }
+    .link{
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+    }
